@@ -4,6 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Negocioalcambio | La herramienta imprescindible para tu negocio en Venezuela</title>
+
+    <!-- Meta Pixel Code -->
+    <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window, document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1196814618515553');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none"
+        src="https://www.facebook.com/tr?id=1196814618515553&ev=PageView&noscript=1"/>
+    </noscript>
+    <!-- End Meta Pixel Code -->
+
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -89,14 +109,24 @@
     </header>
 
     <!-- Hero Section -->
-    <section class="relative pt-10 pb-16 md:pt-16 md:pb-24 hero-glow overflow-hidden">
+    <section class="relative pt-10 pb-16 md:pt-16 md:pb-20 hero-glow overflow-hidden">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-3xl mx-auto">
                 
-                <!-- Badge Offer -->
-                <div class="inline-flex items-center space-x-2 bg-amber-500/10 border border-amber-500/30 text-app-gold px-4 py-1.5 rounded-full text-xs sm:text-sm font-bold mb-6 shadow-sm">
-                    <i data-lucide="sparkles" class="w-4 h-4 text-app-gold"></i>
-                    <span>¡3 Días de Prueba 100% Gratis sin compromiso!</span>
+                <!-- Social Proof & Offer Badge -->
+                <div class="flex flex-col sm:flex-row items-center justify-center gap-3 mb-6">
+                    <div class="inline-flex items-center space-x-2 bg-amber-500/10 border border-amber-500/30 text-app-gold px-4 py-1.5 rounded-full text-xs sm:text-sm font-bold shadow-sm">
+                        <i data-lucide="sparkles" class="w-4 h-4 text-app-gold"></i>
+                        <span>¡3 Días de Prueba 100% Gratis sin compromiso!</span>
+                    </div>
+
+                    <!-- Subtle Social Proof Badge -->
+                    <div class="inline-flex items-center space-x-2 bg-slate-800/80 border border-slate-700/70 px-3 py-1.5 rounded-full text-xs font-medium text-slate-300">
+                        <span class="flex -space-x-1">
+                            <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+                        </span>
+                        <span>Usado por <strong class="text-white font-bold">+5,000 comerciantes</strong> en Venezuela</span>
+                    </div>
                 </div>
 
                 <!-- Main Headline -->
@@ -109,7 +139,7 @@
                 </p>
 
                 <!-- Hero Offer CTA Box -->
-                <div class="glass-card p-6 sm:p-8 rounded-2xl shadow-2xl max-w-2xl mx-auto border border-app-border mb-12 text-left">
+                <div class="glass-card p-6 sm:p-8 rounded-2xl shadow-2xl max-w-2xl mx-auto border border-app-border mb-6 text-left">
                     <div class="flex flex-col sm:flex-row items-center justify-between gap-6">
                         <div>
                             <span class="text-xs font-bold uppercase tracking-widest text-slate-400 block">Licencia Vitalicia</span>
@@ -130,89 +160,18 @@
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- Detailed App Preview Mockup -->
-            <div class="max-w-4xl mx-auto bg-[#151d30] border border-[#25324d] rounded-3xl p-4 sm:p-6 shadow-2xl relative overflow-hidden">
-                <div class="flex items-center justify-between border-b border-slate-700/60 pb-4 mb-6">
-                    <div class="flex items-center space-x-2">
-                        <div class="w-3 h-3 rounded-full bg-red-500"></div>
-                        <div class="w-3 h-3 rounded-full bg-amber-500"></div>
-                        <div class="w-3 h-3 rounded-full bg-emerald-500"></div>
-                        <span class="text-xs text-slate-400 font-medium ml-2 hidden sm:inline">Negocioalcambio App En Vivo</span>
-                    </div>
-                    <div class="flex items-center space-x-2 bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 px-3 py-1 rounded-full text-xs font-bold">
-                        <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-                        <span>Tasa Oficial BCV Actualizada</span>
-                    </div>
-                </div>
-
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    <!-- Conversion Box -->
-                    <div class="space-y-4">
-                        <div class="bg-[#0f172a] p-4 rounded-2xl border border-slate-700/60">
-                            <div class="flex justify-between items-center mb-2">
-                                <span class="text-xs text-slate-400 font-semibold uppercase">Monto en Dólares ($)</span>
-                                <span class="text-xs text-app-gold font-bold">Tasa BCV: 86.56 Bs</span>
-                            </div>
-                            <div class="flex items-center justify-between bg-[#151d30] border border-slate-700 rounded-xl px-4 py-3">
-                                <span class="text-2xl font-black text-white">$ 10.00</span>
-                                <span class="text-xs bg-app-blue/20 text-app-blue font-bold px-2.5 py-1 rounded-md">USD</span>
-                            </div>
-                        </div>
-
-                        <div class="bg-[#0f172a] p-4 rounded-2xl border border-slate-700/60">
-                            <div class="flex justify-between items-center mb-2">
-                                <span class="text-xs text-slate-400 font-semibold uppercase">Monto Equivalente (Bolívares)</span>
-                                <span class="text-xs text-emerald-400 font-bold">Cálculo Exacto</span>
-                            </div>
-                            <div class="flex items-center justify-between bg-[#151d30] border border-slate-700 rounded-xl px-4 py-3">
-                                <span class="text-2xl font-black text-app-gold">Bs 865.60</span>
-                                <button class="bg-[#23304d] p-2 rounded-lg text-slate-300 hover:text-white">
-                                    <i data-lucide="copy" class="w-4 h-4"></i>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Budget / Cart Mockup -->
-                    <div class="bg-[#0f172a] p-4 rounded-2xl border border-slate-700/60 flex flex-col justify-between">
-                        <div>
-                            <div class="flex items-center justify-between mb-3 border-b border-slate-800 pb-2">
-                                <span class="text-xs font-bold text-slate-300 uppercase flex items-center gap-1.5">
-                                    <i data-lucide="shopping-bag" class="w-4 h-4 text-app-gold"></i>
-                                    <span>Presupuesto Rápido</span>
-                                </span>
-                                <span class="text-[11px] text-slate-400">3 Productos</span>
-                            </div>
-                            
-                            <div class="space-y-2 text-xs">
-                                <div class="flex justify-between items-center bg-[#151d30] p-2.5 rounded-lg border border-slate-800">
-                                    <span class="text-slate-200">1x Harina PAN</span>
-                                    <span class="font-bold text-white">$1.20 <span class="text-slate-400 text-[10px]">(103.87 Bs)</span></span>
-                                </div>
-                                <div class="flex justify-between items-center bg-[#151d30] p-2.5 rounded-lg border border-slate-800">
-                                    <span class="text-slate-200">1x Aceite 1 Litro</span>
-                                    <span class="font-bold text-white">$2.50 <span class="text-slate-400 text-[10px]">(216.40 Bs)</span></span>
-                                </div>
-                                <div class="flex justify-between items-center bg-[#151d30] p-2.5 rounded-lg border border-slate-800">
-                                    <span class="text-slate-200">1x Arroz Blanco 1kg</span>
-                                    <span class="font-bold text-white">$1.10 <span class="text-slate-400 text-[10px]">(95.22 Bs)</span></span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="mt-4 pt-3 border-t border-slate-800 flex items-center justify-between">
-                            <div>
-                                <span class="text-[10px] text-slate-400 block uppercase font-semibold">Total a Cobrar</span>
-                                <span class="text-xl font-black text-white">$4.80 <span class="text-app-gold text-sm font-bold">/ 415.49 Bs</span></span>
-                            </div>
-                            <button onclick="openRegisterModal()" class="bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs px-3.5 py-2.5 rounded-xl flex items-center space-x-1.5 shadow-lg shadow-emerald-600/20">
-                                <i data-lucide="message-square" class="w-3.5 h-3.5"></i>
-                                <span>Enviar Cotización</span>
-                            </button>
-                        </div>
-                    </div>
+                <!-- Subtle trust indicator below CTA -->
+                <div class="flex items-center justify-center space-x-4 text-xs text-slate-400">
+                    <span class="flex items-center gap-1">
+                        <i data-lucide="check" class="w-3.5 h-3.5 text-emerald-400"></i> Sin tarjetas de crédito
+                    </span>
+                    <span class="flex items-center gap-1">
+                        <i data-lucide="check" class="w-3.5 h-3.5 text-emerald-400"></i> Activación instantánea
+                    </span>
+                    <span class="hidden sm:flex items-center gap-1">
+                        <i data-lucide="check" class="w-3.5 h-3.5 text-emerald-400"></i> Tasa BCV en vivo
+                    </span>
                 </div>
             </div>
         </div>
@@ -415,7 +374,8 @@
     <section class="py-16 bg-app-bg border-t border-app-border">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-2xl mx-auto mb-12">
-                <h2 class="text-2xl sm:text-3xl font-extrabold text-white">Lo que opinan otros comerciantes</h2>
+                <span class="text-emerald-400 text-xs font-bold uppercase tracking-widest block mb-1">Comunidad en Crecimiento</span>
+                <h2 class="text-2xl sm:text-3xl font-extrabold text-white">Más de 5,000 negocios confían en nosotros</h2>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -524,7 +484,7 @@
     <!-- Final Banner CTA -->
     <section class="py-16 bg-gradient-to-br from-blue-700 via-app-blue to-blue-900 text-white text-center">
         <div class="max-w-4xl mx-auto px-4">
-            <h2 class="text-3xl sm:text-4xl font-extrabold mb-4">Comienza a optimizar las cuentas de tu negocio hoy</h2>
+            <h2 class="text-3xl sm:text-4xl font-extrabold mb-4">Únete a más de 5,000 negocios que optimizan sus cuentas hoy</h2>
             <p class="text-blue-100 text-lg mb-8">Disfruta de 3 días 100% gratis. Después solo $4.99 pago único a tasa oficial BCV.</p>
             
             <button onclick="openRegisterModal()" class="inline-flex items-center space-x-2 bg-app-gold hover:bg-app-goldHover text-slate-950 font-black text-lg px-8 py-4 rounded-xl shadow-2xl transition-all">
@@ -698,9 +658,6 @@
         // Inicializar Lucide Icons
         lucide.createIcons();
 
-        // Safe Pixel Function Initializer
-        window.fbq = window.fbq || function(){(window.fbq.q=window.fbq.q||[]).push(arguments);};
-
         // Año dinámico
         document.getElementById('year').textContent = new Date().getFullYear();
 
@@ -761,6 +718,15 @@
             document.getElementById('formRegistroCliente').addEventListener('submit', function(e) {
                 e.preventDefault();
 
+                // Trackear evento Lead en Meta Pixel al enviar el formulario
+                try {
+                    if (typeof fbq === 'function') {
+                        fbq('track', 'Lead');
+                    }
+                } catch(err) {
+                    console.log('Pixel error:', err);
+                }
+
                 const btnSubmit = document.getElementById('btnGuardarCliente');
                 const mensajeExito = document.getElementById('mensajeExito');
                 const formElement = document.getElementById('formRegistroCliente');
@@ -771,13 +737,12 @@
                 btnSubmit.innerText = 'Registrando...';
                 btnSubmit.disabled = true;
 
-                // Preparar datos compatibles con URLSearchParams para evitar problemas de CORS en Google Apps Script
+                // Preparar datos para Google Apps Script
                 const payload = new URLSearchParams();
                 payload.append('nombre', nombre);
                 payload.append('telefono', telefono);
                 payload.append('fecha', new Date().toLocaleString('es-VE'));
 
-                // Enviar usando mode: 'no-cors' para garantizar el disparo del webhook sin fallas de origen
                 fetch(APPS_SCRIPT_URL, {
                     method: 'POST',
                     mode: 'no-cors',
@@ -787,23 +752,11 @@
                     body: payload
                 })
                 .then(() => {
-                    // Muestra el mensaje de éxito inmediatamente
                     formElement.style.display = 'none';
                     mensajeExito.style.display = 'block';
 
-                    // Trackear Pixel Lead si existe
-                    try {
-                        if (typeof fbq === 'function') {
-                            fbq('track', 'Lead');
-                        }
-                    } catch(err) {
-                        console.log('Pixel error:', err);
-                    }
-
-                    // Marcar usuario como registrado en el dispositivo
                     localStorage.setItem('clienteBodegaRegistrado', 'true');
 
-                    // Crear mensaje para WhatsApp
                     const mensajeWhatsApp = `¡Hola, *${nombre}*! 👋\n\n` +
                         `¡Bienvenido a *Negocioalcambio*! 🚀 Tu registro se ha completado con éxito y ya tienes activo tu **3 días de prueba gratis**.\n\n` +
                         `Para entrar al sistema de inmediato, haz clic en el siguiente enlace: https://negocioalcambio.marketjunior.com/ 📲\n\n` +
@@ -811,7 +764,7 @@
                         `📱 *En Android (Google Chrome):*\n` +
                         `Toca los **tres puntos verticales (⋮)** arriba a la derecha y selecciona **"Instalar aplicación"** o **"Agregar a la pantalla principal"**.\n\n` +
                         `🍏 *En iPhone (Safari):*\n` +
-                        `Toca el botón **Compartir** (cuadrado con flecha hacia arriba) y selecciona **"Añadir a la pantalla de inicio"**.\n\n` +
+                        `Toca el botón **Compartir** (cuadrado with flecha hacia arriba) y selecciona **"Añadir a la pantalla de inicio"**.\n\n` +
                         `---\n` +
                         `🔑 *¿Listo para empezar?* Entra al enlace y comienza a calcular tus precios sin perder dinero.\n\n` +
                         `*(Registro - Teléfono: ${telefono})*`;
@@ -819,7 +772,6 @@
                     const textoCodificado = encodeURIComponent(mensajeWhatsApp);
                     const urlWhatsApp = `https://wa.me/584243800296?text=${textoCodificado}`;
 
-                    // Redirigir a WhatsApp
                     setTimeout(() => {
                         closeRegisterModal();
                         window.location.href = urlWhatsApp;
@@ -827,7 +779,6 @@
                 })
                 .catch(error => {
                     console.error('Error al registrar:', error);
-                    // Fallback directo a WhatsApp
                     window.location.href = `https://wa.me/584243800296?text=${encodeURIComponent('Hola, me registré en Negocioalcambio. Nombre: ' + nombre + ', Teléfono: ' + telefono)}`;
                 });
             });
